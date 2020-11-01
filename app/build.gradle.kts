@@ -68,6 +68,7 @@ android {
 
 
 dependencies {
+
     implementation(Libraries.kotlinStdLib)
     implementation(Libraries.appCompat)
     implementation(Libraries.ktxCore)
@@ -75,12 +76,9 @@ dependencies {
     implementation(Libraries.Design.materialDesign)
 
     implementation(Libraries.kotlinxSerialization)
-    implementation(Libraries.Network.retrofit)
-    implementation(Libraries.Network.okHttp)
     implementation(Libraries.timber)
     implementation(Libraries.coroutineAndroid)
     implementation(Libraries.coroutineCore)
-    implementation(Libraries.workRuntime)
     implementation(Libraries.googleMaps)
 
     //region: arch
@@ -89,9 +87,6 @@ dependencies {
     kapt(Libraries.Arch.lifeCycleCompiler)
     implementation(Libraries.activityKtx)
     //endregion
-
-    implementation(Libraries.Network.moshiConverter)
-    implementation(Libraries.Network.okHttpLoggingInterceptor)
 
     //region: Dagger
     implementation(Libraries.Hilt.dagger)
@@ -102,12 +97,6 @@ dependencies {
     kapt(Libraries.Hilt.daggerCompiler)
     kapt(Libraries.Hilt.hiltCompiler)
     kapt(Libraries.Hilt.hiltAndroidCompiler)
-    //endregion
-
-
-    //region Navigation Components
-    implementation(Libraries.Navigation.navigationFragment)
-    implementation(Libraries.Navigation.navigationUiKtx)
     //endregion
 
     //region glide

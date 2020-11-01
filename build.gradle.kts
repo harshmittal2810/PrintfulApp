@@ -1,5 +1,4 @@
 buildscript {
-
     repositories {
         google()
         jcenter()
@@ -9,7 +8,6 @@ buildscript {
         classpath(BuildConfiguration.androidGradlePlugin)
         classpath(BuildConfiguration.kotlinGradlePlugin)
         classpath(BuildConfiguration.hilt)
-        classpath(BuildConfiguration.safeArgs)
         classpath("org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlinVersion")
     }
 }

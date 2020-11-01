@@ -2,7 +2,7 @@ import BuildConfiguration.Versions.hiltPluginVersion
 import BuildConfiguration.Versions.saveArgsPluginVersion
 
 
-const val kotlinVersion = "1.4.0"
+const val kotlinVersion = "1.4.10"
 const val appId = "com.harsh.printfulapp"
 
 object BuildConfiguration {
@@ -52,7 +52,7 @@ object Libraries {
         const val ktxSerialization = "1.0.0-RC"
         const val retrofit = "2.7.1"
         const val timber = "4.7.1"
-        const val coroutines = "1.3.3"
+        const val coroutines = "1.4.0"
         const val okHttp = "4.3.1"
         const val fragment = "1.2.1"
         const val androidxAnnotation = "1.1.0"
